@@ -14,6 +14,7 @@ public class MajorityElement {
     // Input: [2,2,1,1,1,2,2]
     // Output: 2
 
+
     /**
      * BOYER-MOORE Majority Voting Algorithm
      * <p>
