@@ -26,7 +26,7 @@ public class MoveZeroes {
      * Time Complexity - O(n)
      * Space Complexity - O(1)
      * <p>
-     * Time on LeetCode - 3ms
+     * Runtime on LeetCode - 3ms
      * Runtime beats 85.91% of Java submissions.
      */
     public void moveZeroes(int[] nums) {
