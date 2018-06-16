@@ -30,7 +30,7 @@ public class PascalsTriangle {
      * position elements in the previous level.
      * <p>
      * Time Complexity - O(n^2)
-     * Space Complexity - O(1)
+     * Space Complexity - O(n^2)
      * <p>
      * Runtime on LeetCode = 1ms
      * Runtime beats 99.87% of Java Submissions
