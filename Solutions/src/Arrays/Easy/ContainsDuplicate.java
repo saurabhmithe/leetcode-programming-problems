@@ -20,7 +20,7 @@ public class ContainsDuplicate {
     // Example 3:
     // Input: [1,1,1,3,3,4,3,2,4,2]
     // Output: true
-    
+
 
     /**
      * For each element in the given array, if we are seeing it for the first time,
