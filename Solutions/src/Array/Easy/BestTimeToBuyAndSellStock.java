@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Array.Easy;
 
 public class BestTimeToBuyAndSellStock {
 
