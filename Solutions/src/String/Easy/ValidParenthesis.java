@@ -39,7 +39,15 @@ public class ValidParenthesis {
 
 
     /**
-     * 
+     * The approach is simple but not so apparent in the first glance.
+     * Whenever we encounter an opening parenthesis, instead of storing it directly in
+     * the stack like we do in conventional approaches, we store the counterpart of that parenthesis
+     * i.e. we store the closing parenthesis for the seen parenthesis. By doing this, whenever we see
+     * a closing parenthesis while going over the string, we can pop from the stack and check if
+     * the popped element and the current element are the same. If they mismatch we can return false
+     * since the rule has been broken. Additionally, if we see a closing parenthesis in the string and
+     * the stack is empty, we return false since there is no opening parenthesis to balance it.
+     * In the end, is the stack is empty, we return true since all the parenthesis have been balanced.
      * Time Complexity - O(n)
      * Space Complexity - O(1)
      * Note: Even though we are using an external Stack, given that there can only be three types
@@ -60,4 +68,5 @@ public class ValidParenthesis {
         }
         return stack.isEmpty();
     }
+
 }
