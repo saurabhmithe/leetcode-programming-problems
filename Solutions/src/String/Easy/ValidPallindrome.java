@@ -18,7 +18,7 @@ public class ValidPallindrome {
     Output: false
 
      */
-    
+
 
     /**
      * The approach is straight-forward. We have a helper function which tells us whether a given character
